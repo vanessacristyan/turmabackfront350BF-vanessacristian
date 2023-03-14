@@ -8,9 +8,8 @@
 import Foundation
 //DESAFIO 1
 
-class casa {
-    var quarto : Int
-}
+
+
 
 //OBJETO
 //CARACTERISTICA DE UM OBJETO -> ATRIBUTO OU PROPRIEDADE
