@@ -9,6 +9,25 @@ import Foundation
 //DESAFIO 1
 
 
+class Ave {
+    var nome: String = "galinha"
+    var altura : Double = 0.35
+    var peso : Double = 1.0
+    var cor :  String = "branca"
+    var tipo: String = "caipira"
+
+    }
+    func voa (){
+        print(voa)
+    }
+    func caminhar(){
+        print(caminhar())
+    }
+    
+}
+var meuAnimal : Ave = Ave()
+
+print (meuAnimal.caminhar)
 
 
 //OBJETO
@@ -16,7 +35,7 @@ import Foundation
 //AÇÕES = FUNÇÃO / METODO
 
 // PARA CRIAR UMA CLASSE SEMPRE COMECAMOS A PALAVRA RESERVADA "CLASS" E ME SEGUIDA COLOCAMOS O SEU NOME QUE SEMPRE DEVE COEMCAR COM LETRA MAIUSCULA.
-
+//class trabalha com referencia  , pricipal caracteristica .
 
 
 // Dar vida ao objeto -> quando geramos a instancia -> ()

@@ -28,3 +28,17 @@ caio.nome = "Alfredo"
 print(caio.nome)
 print(matheus.nome)
 
+
+
+//desafio 1
+
+
+class Vendedor{
+    
+    var nome: String
+    var idade: Int
+    var cpf: Int,
+   var saldo: Int
+}
+
+ 
