@@ -10,7 +10,8 @@ import Foundation
 
 
 
-
+//classe é um esborco do objeto
+// trabalha com refenrencia time
 //OBJETO
 //CARACTERISTICA DE UM OBJETO -> ATRIBUTO OU PROPRIEDADE
 //AÇÕES = FUNÇÃO / METODO
@@ -210,7 +211,7 @@ class Pessoa {
     }
 }
 
-
+// class  filha
 class Caio: Pessoa {
 
     var peso: Double
@@ -222,6 +223,7 @@ class Caio: Pessoa {
     
     
 }
+//super.init - so sera usando quando a CLASS PAI tiver um contrutor
 
 var meuNomeBarbara: Caio = Caio(peso: 82, nome: "Caio")
 
@@ -237,8 +239,48 @@ print(meuNomeBarbara.peso)
 // Uma das classes filhas deve conter contrutor indicando os valores de todas as suas propriedades.
 
 
+class Casa {
+    
+    var quarto: Double
+    var sala: Double
+    var banheiro: Double
+     
+    init(quarto: Double, sala:Double, banheiro: Double) {
+        self.quarto = quarto
+        self.sala = sala
+        self.banheiro = banheiro
+    }
+    
+    func abrirPortas()  {
+        print("abrir todas as portas")}
+    
+    func fecharportas() {
+        print("fechar todas as portas")
+    }
+    
+}
 
+class Sitio: Casa {
+    var areaExterna : Double
+    var biblioteca: Int
+    var areaDaPscina: Double
+    
+    init(areaExterna: Double, biblioteca: Int, areaDaPscina: Double, quarto: Double, sala:Double, banheiro: Double) {
+        self.areaExterna = areaExterna
+        self.biblioteca = biblioteca
+        self.areaDaPscina = areaDaPscina
+        super.init(quarto: Double, sala: Double, banheiro: Double)
+    }
+   // se o filho tem construtor o filho tem que "chamar"os construtores do pai
+}
 
-
-
+class Apartemento: Casa {
+    var areaExterna : Double = 200.0
+    var biblioteca: Int = 1
+    var areaDaPscina: Double = 50.0
+}
+   
+var meuSitio: Sitio = Sitio (areaExterna: 200, biblioteca: 1, areaDaPscina: 50, quarto: 5, sala: 3, banheiro: 5)
+// ""-> String vazia
+// nil -> SIGNIFICA NENHUUM VALOR
 
