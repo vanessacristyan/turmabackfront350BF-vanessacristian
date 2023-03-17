@@ -30,15 +30,89 @@ print(matheus.nome)
 
 
 
+
+
+
+
+
+
 //desafio 1
 
 
-class Vendedor{
+class Vendedor {
     
     var nome: String
-    var idade: Int
-    var cpf: Int,
-   var saldo: Int
-}
-
- 
+   var cpf: String
+    var saldo: Double
+     var idade: Double
+    
+    init(nome: String, cpf: String, saldo: Double, idade: Double) {
+        self.nome = nome
+        self.cpf = cpf
+        self.saldo = saldo
+        self.idade = idade
+    }
+    
+    }
+    
+func vender(quantidaDePeca: Int, tipoDepeca: String) {
+        
+    }
+    
+    class Loja {
+        
+        var terno: Double = 400.0
+        var vestido: Double = 900.0
+     
+        }
+        
+        
+     
+        
+        func vender(quantidaDePeca: Int, tipoDepeca: String) {
+            
+        }
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    // exercicio funcionario
+    
+    class Funcionario {
+        var  nome: String
+        var salario: Double
+        var cpf: Double
+        
+    }
+    
+    class Programador {
+        func bonusAnual( valoranual : Double) -> Double {
+            return valoranual * 0.2
+            
+        }
+    }
+    
+    class Disigner {
+        func bonusAnual( valoranual : Double) -> Double {
+            return valoranual * 0.15
+        }
+    }
+    
+    var Funcionario.Programador: Programador = Programador()
+    print(Funcionario.Programador.bonusAnual(valoranual: <#T##Double#>))
+    
+    var Funcionario.Disigner: Disigner = Disigner()
+    print(Funcionario.Disigner.bonusAnual(valoranual: <#T##Double#>))
+    
+    
+    
+    
+    //Exercicio veiculo
+    
+    
+    
