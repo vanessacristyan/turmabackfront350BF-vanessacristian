@@ -7,14 +7,14 @@
 
 import UIKit
 
-class Tela02ViewController: UIViewController {
+class ViewController: UIViewController {
     
     // Método que é disparado quando a tela está prestes a ser apresentada. - configurar parte navigation, configurar animação
     override func viewWillAppear(_ animated: Bool) {
         print(#function)
     }
     
-    // O metodo viewDidLoad é disparado assim que toda a tela for renderizada, sendo assim, é disparado uma única vez. - configurar elementos (configurar fonte, cor, estilo, disparar request de inicio, etc...)
+    // O metodo viewDidLoad é disparado assim que toda a tela for renderizada, sendo assim, é disparado uma única vez. - configurar elementos (configurar fonte, cor, estilo, disparar request de inicio, etc...) esse metodo é o mais usado
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#function)
