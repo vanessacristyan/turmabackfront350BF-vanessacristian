@@ -16,6 +16,8 @@
 		84F94F0B29DB6C9C00A81AF5 /* ligacoesTelasNovasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F94F0A29DB6C9C00A81AF5 /* ligacoesTelasNovasTests.swift */; };
 		84F94F1529DB6C9C00A81AF5 /* ligacoesTelasNovasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F94F1429DB6C9C00A81AF5 /* ligacoesTelasNovasUITests.swift */; };
 		84F94F1729DB6C9C00A81AF5 /* ligacoesTelasNovasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F94F1629DB6C9C00A81AF5 /* ligacoesTelasNovasUITestsLaunchTests.swift */; };
+		84F94F2529DB749600A81AF5 /* tela02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F94F2429DB749600A81AF5 /* tela02.swift */; };
+		84F94F2729DB74A800A81AF5 /* tela02.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F94F2629DB74A800A81AF5 /* tela02.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		84F94F1029DB6C9C00A81AF5 /* ligacoesTelasNovasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ligacoesTelasNovasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F94F1429DB6C9C00A81AF5 /* ligacoesTelasNovasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligacoesTelasNovasUITests.swift; sourceTree = "<group>"; };
 		84F94F1629DB6C9C00A81AF5 /* ligacoesTelasNovasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligacoesTelasNovasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84F94F2429DB749600A81AF5 /* tela02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela02.swift; sourceTree = "<group>"; };
+		84F94F2629DB74A800A81AF5 /* tela02.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela02.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		84F94EE729DB6C9A00A81AF5 = {
 			isa = PBXGroup;
 			children = (
+				84F94F2329DB747D00A81AF5 /* tela02 */,
 				84F94EF229DB6C9A00A81AF5 /* ligacoesTelasNovas */,
 				84F94F0929DB6C9C00A81AF5 /* ligacoesTelasNovasTests */,
 				84F94F1329DB6C9C00A81AF5 /* ligacoesTelasNovasUITests */,
@@ -125,6 +130,15 @@
 				84F94F1629DB6C9C00A81AF5 /* ligacoesTelasNovasUITestsLaunchTests.swift */,
 			);
 			path = ligacoesTelasNovasUITests;
+			sourceTree = "<group>";
+		};
+		84F94F2329DB747D00A81AF5 /* tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				84F94F2429DB749600A81AF5 /* tela02.swift */,
+				84F94F2629DB74A800A81AF5 /* tela02.storyboard */,
+			);
+			path = tela02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F94F2729DB74A800A81AF5 /* tela02.storyboard in Resources */,
 				84F94F0029DB6C9B00A81AF5 /* LaunchScreen.storyboard in Resources */,
 				84F94EFD29DB6C9B00A81AF5 /* Assets.xcassets in Resources */,
 				84F94EFB29DB6C9A00A81AF5 /* Main.storyboard in Resources */,
@@ -261,6 +276,7 @@
 				84F94EF829DB6C9A00A81AF5 /* ViewController.swift in Sources */,
 				84F94EF429DB6C9A00A81AF5 /* AppDelegate.swift in Sources */,
 				84F94EF629DB6C9A00A81AF5 /* SceneDelegate.swift in Sources */,
+				84F94F2529DB749600A81AF5 /* tela02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

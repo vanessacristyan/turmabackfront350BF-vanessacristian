@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBAction func tappedtela02Button(_ sender: UIButton) {
+        performSegue(withIdentifier: "tela02", sender: nil)
+    }
 
 
 }
