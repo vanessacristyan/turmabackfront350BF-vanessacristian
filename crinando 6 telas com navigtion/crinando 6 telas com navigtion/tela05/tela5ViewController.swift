@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  tela5ViewController.swift
 //  crinando 6 telas com navigtion
 //
 //  Created by Usuario on 06/04/23.
@@ -7,20 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class tela5ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-    
-    
-    @IBAction func tappedShowtela02Button(_ sender: UIButton) {
-        
-        let vc:tela2ViewController? = UIStoryboard(name: "tela2ViewController", bundle: nil).instantiateViewController(withIdentifier: "tela2ViewController") as? tela2ViewController
+    @IBAction func tappedShowTela06(_ sender: UIButton) {
+        let vc:tela6ViewController? = UIStoryboard(name: "tela6ViewController", bundle: nil).instantiateViewController(withIdentifier: "tela6ViewController") as? tela6ViewController
         vc?.modalPresentationStyle = .formSheet
         navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+        
+        
     }
-}
     
-
+}
