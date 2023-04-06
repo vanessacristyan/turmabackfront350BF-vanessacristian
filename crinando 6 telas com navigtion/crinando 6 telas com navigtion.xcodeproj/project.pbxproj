@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848A6E2529DF5E2B00B50742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E2429DF5E2B00B50742 /* AppDelegate.swift */; };
+		848A6E2729DF5E2B00B50742 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E2629DF5E2B00B50742 /* SceneDelegate.swift */; };
+		848A6E2929DF5E2B00B50742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E2829DF5E2B00B50742 /* ViewController.swift */; };
+		848A6E2C29DF5E2B00B50742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2A29DF5E2B00B50742 /* Main.storyboard */; };
+		848A6E2E29DF5E2D00B50742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2D29DF5E2D00B50742 /* Assets.xcassets */; };
+		848A6E3129DF5E2D00B50742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2F29DF5E2D00B50742 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848A6E3829DF5E2D00B50742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A6E1929DF5E2B00B50742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A6E2029DF5E2B00B50742;
+			remoteInfo = "crinando 6 telas com navigtion";
+		};
+		848A6E4229DF5E2D00B50742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A6E1929DF5E2B00B50742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A6E2029DF5E2B00B50742;
+			remoteInfo = "crinando 6 telas com navigtion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848A6E2129DF5E2B00B50742 /* crinando 6 telas com navigtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crinando 6 telas com navigtion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A6E2429DF5E2B00B50742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848A6E2629DF5E2B00B50742 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		848A6E2829DF5E2B00B50742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848A6E2B29DF5E2B00B50742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848A6E2D29DF5E2D00B50742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A6E3029DF5E2D00B50742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848A6E3229DF5E2D00B50742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A6E3729DF5E2D00B50742 /* crinando 6 telas com navigtionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crinando 6 telas com navigtionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A6E4129DF5E2D00B50742 /* crinando 6 telas com navigtionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crinando 6 telas com navigtionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A6E1E29DF5E2B00B50742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3429DF5E2D00B50742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3E29DF5E2D00B50742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A6E1829DF5E2B00B50742 = {
+			isa = PBXGroup;
+			children = (
+				848A6E2329DF5E2B00B50742 /* crinando 6 telas com navigtion */,
+				848A6E2229DF5E2B00B50742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6E2229DF5E2B00B50742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E2129DF5E2B00B50742 /* crinando 6 telas com navigtion.app */,
+				848A6E3729DF5E2D00B50742 /* crinando 6 telas com navigtionTests.xctest */,
+				848A6E4129DF5E2D00B50742 /* crinando 6 telas com navigtionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A6E2329DF5E2B00B50742 /* crinando 6 telas com navigtion */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E2429DF5E2B00B50742 /* AppDelegate.swift */,
+				848A6E2629DF5E2B00B50742 /* SceneDelegate.swift */,
+				848A6E2829DF5E2B00B50742 /* ViewController.swift */,
+				848A6E2A29DF5E2B00B50742 /* Main.storyboard */,
+				848A6E2D29DF5E2D00B50742 /* Assets.xcassets */,
+				848A6E2F29DF5E2D00B50742 /* LaunchScreen.storyboard */,
+				848A6E3229DF5E2D00B50742 /* Info.plist */,
+			);
+			path = "crinando 6 telas com navigtion";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A6E2029DF5E2B00B50742 /* crinando 6 telas com navigtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A6E4B29DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtion" */;
+			buildPhases = (
+				848A6E1D29DF5E2B00B50742 /* Sources */,
+				848A6E1E29DF5E2B00B50742 /* Frameworks */,
+				848A6E1F29DF5E2B00B50742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "crinando 6 telas com navigtion";
+			productName = "crinando 6 telas com navigtion";
+			productReference = 848A6E2129DF5E2B00B50742 /* crinando 6 telas com navigtion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848A6E3629DF5E2D00B50742 /* crinando 6 telas com navigtionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A6E4E29DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtionTests" */;
+			buildPhases = (
+				848A6E3329DF5E2D00B50742 /* Sources */,
+				848A6E3429DF5E2D00B50742 /* Frameworks */,
+				848A6E3529DF5E2D00B50742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A6E3929DF5E2D00B50742 /* PBXTargetDependency */,
+			);
+			name = "crinando 6 telas com navigtionTests";
+			productName = "crinando 6 telas com navigtionTests";
+			productReference = 848A6E3729DF5E2D00B50742 /* crinando 6 telas com navigtionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848A6E4029DF5E2D00B50742 /* crinando 6 telas com navigtionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A6E5129DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtionUITests" */;
+			buildPhases = (
+				848A6E3D29DF5E2D00B50742 /* Sources */,
+				848A6E3E29DF5E2D00B50742 /* Frameworks */,
+				848A6E3F29DF5E2D00B50742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A6E4329DF5E2D00B50742 /* PBXTargetDependency */,
+			);
+			name = "crinando 6 telas com navigtionUITests";
+			productName = "crinando 6 telas com navigtionUITests";
+			productReference = 848A6E4129DF5E2D00B50742 /* crinando 6 telas com navigtionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A6E1929DF5E2B00B50742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					848A6E2029DF5E2B00B50742 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					848A6E3629DF5E2D00B50742 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 848A6E2029DF5E2B00B50742;
+					};
+					848A6E4029DF5E2D00B50742 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 848A6E2029DF5E2B00B50742;
+					};
+				};
+			};
+			buildConfigurationList = 848A6E1C29DF5E2B00B50742 /* Build configuration list for PBXProject "crinando 6 telas com navigtion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A6E1829DF5E2B00B50742;
+			productRefGroup = 848A6E2229DF5E2B00B50742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A6E2029DF5E2B00B50742 /* crinando 6 telas com navigtion */,
+				848A6E3629DF5E2D00B50742 /* crinando 6 telas com navigtionTests */,
+				848A6E4029DF5E2D00B50742 /* crinando 6 telas com navigtionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A6E1F29DF5E2B00B50742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A6E3129DF5E2D00B50742 /* LaunchScreen.storyboard in Resources */,
+				848A6E2E29DF5E2D00B50742 /* Assets.xcassets in Resources */,
+				848A6E2C29DF5E2B00B50742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3529DF5E2D00B50742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3F29DF5E2D00B50742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A6E1D29DF5E2B00B50742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A6E2929DF5E2B00B50742 /* ViewController.swift in Sources */,
+				848A6E2529DF5E2B00B50742 /* AppDelegate.swift in Sources */,
+				848A6E2729DF5E2B00B50742 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3329DF5E2D00B50742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A6E3D29DF5E2D00B50742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848A6E3929DF5E2D00B50742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A6E2029DF5E2B00B50742 /* crinando 6 telas com navigtion */;
+			targetProxy = 848A6E3829DF5E2D00B50742 /* PBXContainerItemProxy */;
+		};
+		848A6E4329DF5E2D00B50742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A6E2029DF5E2B00B50742 /* crinando 6 telas com navigtion */;
+			targetProxy = 848A6E4229DF5E2D00B50742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848A6E2A29DF5E2B00B50742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A6E2B29DF5E2B00B50742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848A6E2F29DF5E2D00B50742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A6E3029DF5E2D00B50742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848A6E4929DF5E2D00B50742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848A6E4A29DF5E2D00B50742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A6E4C29DF5E2D00B50742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crinando 6 telas com navigtion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848A6E4D29DF5E2D00B50742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crinando 6 telas com navigtion/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		848A6E4F29DF5E2D00B50742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crinando 6 telas com navigtion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crinando 6 telas com navigtion";
+			};
+			name = Debug;
+		};
+		848A6E5029DF5E2D00B50742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crinando 6 telas com navigtion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crinando 6 telas com navigtion";
+			};
+			name = Release;
+		};
+		848A6E5229DF5E2D00B50742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "crinando 6 telas com navigtion";
+			};
+			name = Debug;
+		};
+		848A6E5329DF5E2D00B50742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.crinando-6-telas-com-navigtionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "crinando 6 telas com navigtion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A6E1C29DF5E2B00B50742 /* Build configuration list for PBXProject "crinando 6 telas com navigtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A6E4929DF5E2D00B50742 /* Debug */,
+				848A6E4A29DF5E2D00B50742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A6E4B29DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A6E4C29DF5E2D00B50742 /* Debug */,
+				848A6E4D29DF5E2D00B50742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A6E4E29DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A6E4F29DF5E2D00B50742 /* Debug */,
+				848A6E5029DF5E2D00B50742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A6E5129DF5E2D00B50742 /* Build configuration list for PBXNativeTarget "crinando 6 telas com navigtionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A6E5229DF5E2D00B50742 /* Debug */,
+				848A6E5329DF5E2D00B50742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848A6E1929DF5E2B00B50742 /* Project object */;
+}

@@ -13,7 +13,7 @@ class tela02ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func tappedbackButton(_ sender: UIButton) {
+    @IBAction func tappedBack(_ sender: UIButton) {
         dismiss(animated: true)
     }
 }

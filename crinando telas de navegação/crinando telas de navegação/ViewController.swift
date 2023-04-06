@@ -17,10 +17,8 @@ class ViewController: UIViewController {
 
     @IBAction func TappedShowTela02Button(_ sender: UIButton) {
         let vc: tela02ViewController? = UIStoryboard(name: " tela02ViewController", bundle: nil).instantiateViewController(withIdentifier: "tela02ViewController") as? tela02ViewController
-        vc?.modalPresentationStyle = .fullScreen
+//        vc?.modalPresentationStyle = .fullScreen
         present ( vc ?? UIViewController(), animated: true)
-
-
     
     }
     
