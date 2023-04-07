@@ -14,6 +14,6 @@ class tela02ViewController: UIViewController {
     }
     
     @IBAction func tappedBack(_ sender: UIButton) {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
 }
