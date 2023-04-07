@@ -13,6 +13,16 @@
 		848A6E2C29DF5E2B00B50742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2A29DF5E2B00B50742 /* Main.storyboard */; };
 		848A6E2E29DF5E2D00B50742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2D29DF5E2D00B50742 /* Assets.xcassets */; };
 		848A6E3129DF5E2D00B50742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E2F29DF5E2D00B50742 /* LaunchScreen.storyboard */; };
+		848A6E5629DF5F4D00B50742 /* tela2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E5529DF5F4D00B50742 /* tela2ViewController.storyboard */; };
+		848A6E5829DF5F5D00B50742 /* tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E5729DF5F5D00B50742 /* tela2ViewController.swift */; };
+		848A6E5B29DF5F7A00B50742 /* tela3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E5A29DF5F7A00B50742 /* tela3ViewController.swift */; };
+		848A6E5D29DF5F8E00B50742 /* tela3ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E5C29DF5F8E00B50742 /* tela3ViewController.storyboard */; };
+		848A6E6029DF5FAF00B50742 /* tela4ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E5F29DF5FAF00B50742 /* tela4ViewController.storyboard */; };
+		848A6E6229DF5FC100B50742 /* tela4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E6129DF5FC100B50742 /* tela4ViewController.swift */; };
+		848A6E6529DF5FDD00B50742 /* tela5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E6429DF5FDD00B50742 /* tela5ViewController.swift */; };
+		848A6E6729DF5FF300B50742 /* tela5ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E6629DF5FF300B50742 /* tela5ViewController.storyboard */; };
+		848A6E6A29DF601200B50742 /* tela6ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A6E6929DF601200B50742 /* tela6ViewController.storyboard */; };
+		848A6E6C29DF602500B50742 /* tela6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A6E6B29DF602500B50742 /* tela6ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,16 @@
 		848A6E3229DF5E2D00B50742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848A6E3729DF5E2D00B50742 /* crinando 6 telas com navigtionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crinando 6 telas com navigtionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848A6E4129DF5E2D00B50742 /* crinando 6 telas com navigtionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crinando 6 telas com navigtionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A6E5529DF5F4D00B50742 /* tela2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela2ViewController.storyboard; sourceTree = "<group>"; };
+		848A6E5729DF5F5D00B50742 /* tela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela2ViewController.swift; sourceTree = "<group>"; };
+		848A6E5A29DF5F7A00B50742 /* tela3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela3ViewController.swift; sourceTree = "<group>"; };
+		848A6E5C29DF5F8E00B50742 /* tela3ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela3ViewController.storyboard; sourceTree = "<group>"; };
+		848A6E5F29DF5FAF00B50742 /* tela4ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela4ViewController.storyboard; sourceTree = "<group>"; };
+		848A6E6129DF5FC100B50742 /* tela4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela4ViewController.swift; sourceTree = "<group>"; };
+		848A6E6429DF5FDD00B50742 /* tela5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela5ViewController.swift; sourceTree = "<group>"; };
+		848A6E6629DF5FF300B50742 /* tela5ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela5ViewController.storyboard; sourceTree = "<group>"; };
+		848A6E6929DF601200B50742 /* tela6ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tela6ViewController.storyboard; sourceTree = "<group>"; };
+		848A6E6B29DF602500B50742 /* tela6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela6ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +111,11 @@
 		848A6E2329DF5E2B00B50742 /* crinando 6 telas com navigtion */ = {
 			isa = PBXGroup;
 			children = (
+				848A6E6829DF5FFC00B50742 /* tela06 */,
+				848A6E6329DF5FC700B50742 /* tela05 */,
+				848A6E5E29DF5F9600B50742 /* tela04 */,
+				848A6E5929DF5F6200B50742 /* tela03 */,
+				848A6E5429DF5F1A00B50742 /* tela02 */,
 				848A6E2429DF5E2B00B50742 /* AppDelegate.swift */,
 				848A6E2629DF5E2B00B50742 /* SceneDelegate.swift */,
 				848A6E2829DF5E2B00B50742 /* ViewController.swift */,
@@ -100,6 +125,51 @@
 				848A6E3229DF5E2D00B50742 /* Info.plist */,
 			);
 			path = "crinando 6 telas com navigtion";
+			sourceTree = "<group>";
+		};
+		848A6E5429DF5F1A00B50742 /* tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E5529DF5F4D00B50742 /* tela2ViewController.storyboard */,
+				848A6E5729DF5F5D00B50742 /* tela2ViewController.swift */,
+			);
+			path = tela02;
+			sourceTree = "<group>";
+		};
+		848A6E5929DF5F6200B50742 /* tela03 */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E5A29DF5F7A00B50742 /* tela3ViewController.swift */,
+				848A6E5C29DF5F8E00B50742 /* tela3ViewController.storyboard */,
+			);
+			path = tela03;
+			sourceTree = "<group>";
+		};
+		848A6E5E29DF5F9600B50742 /* tela04 */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E5F29DF5FAF00B50742 /* tela4ViewController.storyboard */,
+				848A6E6129DF5FC100B50742 /* tela4ViewController.swift */,
+			);
+			path = tela04;
+			sourceTree = "<group>";
+		};
+		848A6E6329DF5FC700B50742 /* tela05 */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E6429DF5FDD00B50742 /* tela5ViewController.swift */,
+				848A6E6629DF5FF300B50742 /* tela5ViewController.storyboard */,
+			);
+			path = tela05;
+			sourceTree = "<group>";
+		};
+		848A6E6829DF5FFC00B50742 /* tela06 */ = {
+			isa = PBXGroup;
+			children = (
+				848A6E6929DF601200B50742 /* tela6ViewController.storyboard */,
+				848A6E6B29DF602500B50742 /* tela6ViewController.swift */,
+			);
+			path = tela06;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,8 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848A6E6A29DF601200B50742 /* tela6ViewController.storyboard in Resources */,
+				848A6E5629DF5F4D00B50742 /* tela2ViewController.storyboard in Resources */,
+				848A6E6729DF5FF300B50742 /* tela5ViewController.storyboard in Resources */,
+				848A6E5D29DF5F8E00B50742 /* tela3ViewController.storyboard in Resources */,
 				848A6E3129DF5E2D00B50742 /* LaunchScreen.storyboard in Resources */,
 				848A6E2E29DF5E2D00B50742 /* Assets.xcassets in Resources */,
+				848A6E6029DF5FAF00B50742 /* tela4ViewController.storyboard in Resources */,
 				848A6E2C29DF5E2B00B50742 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +309,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				848A6E2929DF5E2B00B50742 /* ViewController.swift in Sources */,
+				848A6E6529DF5FDD00B50742 /* tela5ViewController.swift in Sources */,
 				848A6E2529DF5E2B00B50742 /* AppDelegate.swift in Sources */,
 				848A6E2729DF5E2B00B50742 /* SceneDelegate.swift in Sources */,
+				848A6E5829DF5F5D00B50742 /* tela2ViewController.swift in Sources */,
+				848A6E5B29DF5F7A00B50742 /* tela3ViewController.swift in Sources */,
+				848A6E6229DF5FC100B50742 /* tela4ViewController.swift in Sources */,
+				848A6E6C29DF602500B50742 /* tela6ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

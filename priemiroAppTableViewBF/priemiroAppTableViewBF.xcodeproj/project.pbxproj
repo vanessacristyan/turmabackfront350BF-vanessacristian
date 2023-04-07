@@ -13,9 +13,8 @@
 		84046CE529DFA60B00A0ADFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84046CE329DFA60B00A0ADFE /* Main.storyboard */; };
 		84046CE729DFA60C00A0ADFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84046CE629DFA60C00A0ADFE /* Assets.xcassets */; };
 		84046CEA29DFA60C00A0ADFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84046CE829DFA60C00A0ADFE /* LaunchScreen.storyboard */; };
-		84046CF529DFA60D00A0ADFE /* priemiroAppTableViewBFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84046CF429DFA60D00A0ADFE /* priemiroAppTableViewBFTests.swift */; };
-		84046CFF29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84046CFE29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.swift */; };
-		84046D0129DFA60D00A0ADFE /* priemiroAppTableViewBFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84046D0029DFA60D00A0ADFE /* priemiroAppTableViewBFUITestsLaunchTests.swift */; };
+		84046D1029DFAE1700A0ADFE /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84046D0E29DFAE1700A0ADFE /* NameTableViewCell.swift */; };
+		84046D1129DFAE1700A0ADFE /* NameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84046D0F29DFAE1700A0ADFE /* NameTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +44,9 @@
 		84046CE929DFA60C00A0ADFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84046CEB29DFA60C00A0ADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84046CF029DFA60D00A0ADFE /* priemiroAppTableViewBFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = priemiroAppTableViewBFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84046CF429DFA60D00A0ADFE /* priemiroAppTableViewBFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priemiroAppTableViewBFTests.swift; sourceTree = "<group>"; };
 		84046CFA29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = priemiroAppTableViewBFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84046CFE29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priemiroAppTableViewBFUITests.swift; sourceTree = "<group>"; };
-		84046D0029DFA60D00A0ADFE /* priemiroAppTableViewBFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priemiroAppTableViewBFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84046D0E29DFAE1700A0ADFE /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		84046D0F29DFAE1700A0ADFE /* NameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				84046CDC29DFA60B00A0ADFE /* priemiroAppTableViewBF */,
-				84046CF329DFA60D00A0ADFE /* priemiroAppTableViewBFTests */,
-				84046CFD29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests */,
 				84046CDB29DFA60B00A0ADFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +95,7 @@
 		84046CDC29DFA60B00A0ADFE /* priemiroAppTableViewBF */ = {
 			isa = PBXGroup;
 			children = (
+				84046D0D29DFAD5100A0ADFE /* cell */,
 				84046CDD29DFA60B00A0ADFE /* AppDelegate.swift */,
 				84046CDF29DFA60B00A0ADFE /* SceneDelegate.swift */,
 				84046CE129DFA60B00A0ADFE /* ViewController.swift */,
@@ -110,21 +107,13 @@
 			path = priemiroAppTableViewBF;
 			sourceTree = "<group>";
 		};
-		84046CF329DFA60D00A0ADFE /* priemiroAppTableViewBFTests */ = {
+		84046D0D29DFAD5100A0ADFE /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				84046CF429DFA60D00A0ADFE /* priemiroAppTableViewBFTests.swift */,
+				84046D0E29DFAE1700A0ADFE /* NameTableViewCell.swift */,
+				84046D0F29DFAE1700A0ADFE /* NameTableViewCell.xib */,
 			);
-			path = priemiroAppTableViewBFTests;
-			sourceTree = "<group>";
-		};
-		84046CFD29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84046CFE29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.swift */,
-				84046D0029DFA60D00A0ADFE /* priemiroAppTableViewBFUITestsLaunchTests.swift */,
-			);
-			path = priemiroAppTableViewBFUITests;
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +222,7 @@
 			files = (
 				84046CEA29DFA60C00A0ADFE /* LaunchScreen.storyboard in Resources */,
 				84046CE729DFA60C00A0ADFE /* Assets.xcassets in Resources */,
+				84046D1129DFAE1700A0ADFE /* NameTableViewCell.xib in Resources */,
 				84046CE529DFA60B00A0ADFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +250,7 @@
 			files = (
 				84046CE229DFA60B00A0ADFE /* ViewController.swift in Sources */,
 				84046CDE29DFA60B00A0ADFE /* AppDelegate.swift in Sources */,
+				84046D1029DFAE1700A0ADFE /* NameTableViewCell.swift in Sources */,
 				84046CE029DFA60B00A0ADFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84046CF529DFA60D00A0ADFE /* priemiroAppTableViewBFTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84046CFF29DFA60D00A0ADFE /* priemiroAppTableViewBFUITests.swift in Sources */,
-				84046D0129DFA60D00A0ADFE /* priemiroAppTableViewBFUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
