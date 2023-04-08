@@ -25,6 +25,16 @@
                                     <action selector="tappedshowtela03:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="47a-TU-YRZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAZ-q0-Lmv">
+                                <rect key="frame" x="162" y="395" width="67" height="35"/>
+                                <color key="backgroundColor" red="0.91733078729999995" green="0.28855221289999999" blue="0.60665281130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="voltar"/>
+                                <connections>
+                                    <action selector="tappedBacktela01:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="u0i-Ca-wsQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="1" green="0.76528826862776356" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,7 +42,10 @@
                             <constraint firstItem="XVm-tX-GPX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="160" id="Bbn-b1-Nz9"/>
                             <constraint firstItem="XVm-tX-GPX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="UTg-Eo-3TT"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XVm-tX-GPX" secondAttribute="trailing" constant="160" id="WZX-8f-BSa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nAZ-q0-Lmv" secondAttribute="trailing" constant="164" id="muN-mL-D6X"/>
+                            <constraint firstItem="nAZ-q0-Lmv" firstAttribute="top" secondItem="XVm-tX-GPX" secondAttribute="bottom" constant="45" id="qBW-QL-jUu"/>
                             <constraint firstItem="XVm-tX-GPX" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="256" id="rCa-oa-Cvj"/>
+                            <constraint firstItem="nAZ-q0-Lmv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="162" id="ygT-JV-Ktf"/>
                         </constraints>
                     </view>
                 </viewController>

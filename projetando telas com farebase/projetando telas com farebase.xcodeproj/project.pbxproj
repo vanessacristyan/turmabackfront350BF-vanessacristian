@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847E774A29E1EFC00037AF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E774929E1EFC00037AF35 /* AppDelegate.swift */; };
+		847E774C29E1EFC00037AF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E774B29E1EFC00037AF35 /* SceneDelegate.swift */; };
+		847E774E29E1EFC00037AF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E774D29E1EFC00037AF35 /* ViewController.swift */; };
+		847E775129E1EFC00037AF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E774F29E1EFC00037AF35 /* Main.storyboard */; };
+		847E775329E1EFC10037AF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847E775229E1EFC10037AF35 /* Assets.xcassets */; };
+		847E775629E1EFC10037AF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E775429E1EFC10037AF35 /* LaunchScreen.storyboard */; };
+		847E777B29E1F0A10037AF35 /* telaDeCadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E777A29E1F0A10037AF35 /* telaDeCadastroViewController.swift */; };
+		847E777D29E1F0B50037AF35 /* TelaDeCadastroViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E777C29E1F0B50037AF35 /* TelaDeCadastroViewController.storyboard */; };
+		847E778029E1F0E70037AF35 /* telaDeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E777F29E1F0E70037AF35 /* telaDeLoginViewController.swift */; };
+		847E778229E1F0F90037AF35 /* telaDeLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E778129E1F0F90037AF35 /* telaDeLoginViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847E775D29E1EFC20037AF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847E773E29E1EFC00037AF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847E774529E1EFC00037AF35;
+			remoteInfo = "projetando telas com farebase";
+		};
+		847E776729E1EFC20037AF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847E773E29E1EFC00037AF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847E774529E1EFC00037AF35;
+			remoteInfo = "projetando telas com farebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847E774629E1EFC00037AF35 /* projetando telas com farebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "projetando telas com farebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E774929E1EFC00037AF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847E774B29E1EFC00037AF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847E774D29E1EFC00037AF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847E775029E1EFC00037AF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847E775229E1EFC10037AF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847E775529E1EFC10037AF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847E775729E1EFC10037AF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847E775C29E1EFC20037AF35 /* projetando telas com farebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "projetando telas com farebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E776629E1EFC20037AF35 /* projetando telas com farebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "projetando telas com farebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E777A29E1F0A10037AF35 /* telaDeCadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaDeCadastroViewController.swift; sourceTree = "<group>"; };
+		847E777C29E1F0B50037AF35 /* TelaDeCadastroViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TelaDeCadastroViewController.storyboard; sourceTree = "<group>"; };
+		847E777F29E1F0E70037AF35 /* telaDeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaDeLoginViewController.swift; sourceTree = "<group>"; };
+		847E778129E1F0F90037AF35 /* telaDeLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = telaDeLoginViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847E774329E1EFC00037AF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E775929E1EFC20037AF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E776329E1EFC20037AF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847E773D29E1EFC00037AF35 = {
+			isa = PBXGroup;
+			children = (
+				847E774829E1EFC00037AF35 /* projetando telas com farebase */,
+				847E774729E1EFC00037AF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847E774729E1EFC00037AF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847E774629E1EFC00037AF35 /* projetando telas com farebase.app */,
+				847E775C29E1EFC20037AF35 /* projetando telas com farebaseTests.xctest */,
+				847E776629E1EFC20037AF35 /* projetando telas com farebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847E774829E1EFC00037AF35 /* projetando telas com farebase */ = {
+			isa = PBXGroup;
+			children = (
+				847E777E29E1F0C20037AF35 /* tela de login */,
+				847E777929E1EFF10037AF35 /* ttela de cadrastro */,
+				847E774929E1EFC00037AF35 /* AppDelegate.swift */,
+				847E774B29E1EFC00037AF35 /* SceneDelegate.swift */,
+				847E774D29E1EFC00037AF35 /* ViewController.swift */,
+				847E774F29E1EFC00037AF35 /* Main.storyboard */,
+				847E775229E1EFC10037AF35 /* Assets.xcassets */,
+				847E775429E1EFC10037AF35 /* LaunchScreen.storyboard */,
+				847E775729E1EFC10037AF35 /* Info.plist */,
+			);
+			path = "projetando telas com farebase";
+			sourceTree = "<group>";
+		};
+		847E777929E1EFF10037AF35 /* ttela de cadrastro */ = {
+			isa = PBXGroup;
+			children = (
+				847E777A29E1F0A10037AF35 /* telaDeCadastroViewController.swift */,
+				847E777C29E1F0B50037AF35 /* TelaDeCadastroViewController.storyboard */,
+			);
+			path = "ttela de cadrastro";
+			sourceTree = "<group>";
+		};
+		847E777E29E1F0C20037AF35 /* tela de login */ = {
+			isa = PBXGroup;
+			children = (
+				847E777F29E1F0E70037AF35 /* telaDeLoginViewController.swift */,
+				847E778129E1F0F90037AF35 /* telaDeLoginViewController.storyboard */,
+			);
+			path = "tela de login";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847E774529E1EFC00037AF35 /* projetando telas com farebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E777029E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebase" */;
+			buildPhases = (
+				847E774229E1EFC00037AF35 /* Sources */,
+				847E774329E1EFC00037AF35 /* Frameworks */,
+				847E774429E1EFC00037AF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "projetando telas com farebase";
+			productName = "projetando telas com farebase";
+			productReference = 847E774629E1EFC00037AF35 /* projetando telas com farebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847E775B29E1EFC20037AF35 /* projetando telas com farebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E777329E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebaseTests" */;
+			buildPhases = (
+				847E775829E1EFC20037AF35 /* Sources */,
+				847E775929E1EFC20037AF35 /* Frameworks */,
+				847E775A29E1EFC20037AF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847E775E29E1EFC20037AF35 /* PBXTargetDependency */,
+			);
+			name = "projetando telas com farebaseTests";
+			productName = "projetando telas com farebaseTests";
+			productReference = 847E775C29E1EFC20037AF35 /* projetando telas com farebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847E776529E1EFC20037AF35 /* projetando telas com farebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847E777629E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebaseUITests" */;
+			buildPhases = (
+				847E776229E1EFC20037AF35 /* Sources */,
+				847E776329E1EFC20037AF35 /* Frameworks */,
+				847E776429E1EFC20037AF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847E776829E1EFC20037AF35 /* PBXTargetDependency */,
+			);
+			name = "projetando telas com farebaseUITests";
+			productName = "projetando telas com farebaseUITests";
+			productReference = 847E776629E1EFC20037AF35 /* projetando telas com farebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847E773E29E1EFC00037AF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					847E774529E1EFC00037AF35 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					847E775B29E1EFC20037AF35 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 847E774529E1EFC00037AF35;
+					};
+					847E776529E1EFC20037AF35 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 847E774529E1EFC00037AF35;
+					};
+				};
+			};
+			buildConfigurationList = 847E774129E1EFC00037AF35 /* Build configuration list for PBXProject "projetando telas com farebase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847E773D29E1EFC00037AF35;
+			productRefGroup = 847E774729E1EFC00037AF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847E774529E1EFC00037AF35 /* projetando telas com farebase */,
+				847E775B29E1EFC20037AF35 /* projetando telas com farebaseTests */,
+				847E776529E1EFC20037AF35 /* projetando telas com farebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847E774429E1EFC00037AF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E775629E1EFC10037AF35 /* LaunchScreen.storyboard in Resources */,
+				847E777D29E1F0B50037AF35 /* TelaDeCadastroViewController.storyboard in Resources */,
+				847E775329E1EFC10037AF35 /* Assets.xcassets in Resources */,
+				847E778229E1F0F90037AF35 /* telaDeLoginViewController.storyboard in Resources */,
+				847E775129E1EFC00037AF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E775A29E1EFC20037AF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E776429E1EFC20037AF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847E774229E1EFC00037AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E777B29E1F0A10037AF35 /* telaDeCadastroViewController.swift in Sources */,
+				847E774E29E1EFC00037AF35 /* ViewController.swift in Sources */,
+				847E774A29E1EFC00037AF35 /* AppDelegate.swift in Sources */,
+				847E774C29E1EFC00037AF35 /* SceneDelegate.swift in Sources */,
+				847E778029E1F0E70037AF35 /* telaDeLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E775829E1EFC20037AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847E776229E1EFC20037AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847E775E29E1EFC20037AF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847E774529E1EFC00037AF35 /* projetando telas com farebase */;
+			targetProxy = 847E775D29E1EFC20037AF35 /* PBXContainerItemProxy */;
+		};
+		847E776829E1EFC20037AF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847E774529E1EFC00037AF35 /* projetando telas com farebase */;
+			targetProxy = 847E776729E1EFC20037AF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847E774F29E1EFC00037AF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847E775029E1EFC00037AF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847E775429E1EFC10037AF35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847E775529E1EFC10037AF35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847E776E29E1EFC20037AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847E776F29E1EFC20037AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847E777129E1EFC20037AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "projetando telas com farebase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847E777229E1EFC20037AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "projetando telas com farebase/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847E777429E1EFC20037AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projetando telas com farebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/projetando telas com farebase";
+			};
+			name = Debug;
+		};
+		847E777529E1EFC20037AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projetando telas com farebase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/projetando telas com farebase";
+			};
+			name = Release;
+		};
+		847E777729E1EFC20037AF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "projetando telas com farebase";
+			};
+			name = Debug;
+		};
+		847E777829E1EFC20037AF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "blackfrout.projetando-telas-com-farebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "projetando telas com farebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847E774129E1EFC00037AF35 /* Build configuration list for PBXProject "projetando telas com farebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E776E29E1EFC20037AF35 /* Debug */,
+				847E776F29E1EFC20037AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847E777029E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E777129E1EFC20037AF35 /* Debug */,
+				847E777229E1EFC20037AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847E777329E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E777429E1EFC20037AF35 /* Debug */,
+				847E777529E1EFC20037AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847E777629E1EFC20037AF35 /* Build configuration list for PBXNativeTarget "projetando telas com farebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E777729E1EFC20037AF35 /* Debug */,
+				847E777829E1EFC20037AF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847E773E29E1EFC00037AF35 /* Project object */;
+}

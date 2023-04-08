@@ -16,12 +16,14 @@ class tela2ViewController: UIViewController {
     }
     
     @IBAction func tappedshowtela03(_ sender: UIButton) {
-        let vc:tela3ViewController? = UIStoryboard(name: "tela3ViewController", bundle: nil).instantiateViewController(withIdentifier: "tela3ViewController") as? tela3ViewController
-        vc?.modalPresentationStyle = .formSheet
+        let vc :tela3ViewController? = UIStoryboard(name: "tela3ViewController", bundle: nil).instantiateViewController(withIdentifier: "tela3ViewController") as? tela3ViewController
         navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
         
     }
     
+    @IBAction func tappedBacktela01(_ sender: UIButton) {
+        navigationController?.pushViewController( ViewController ?? UIViewController(), animated: true)
+    }
     
 
 }
