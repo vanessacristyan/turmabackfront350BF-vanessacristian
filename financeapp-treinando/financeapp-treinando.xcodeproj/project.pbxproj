@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8431B55929C7630E008D4616 /* AlgoErrado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8431B55829C7630E008D4616 /* AlgoErrado.storyboard */; };
 		8431B55B29C763E6008D4616 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8431B55A29C763E6008D4616 /* logo.png */; };
 		8431B55F29C766B7008D4616 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8431B55E29C766B7008D4616 /* bg.png */; };
 		8440D71029C8CFF500EC932D /* google-icon 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440D70F29C8CFF500EC932D /* google-icon 1.png */; };
@@ -17,19 +16,22 @@
 		8440D71C29C8DAF400EC932D /* mail-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440D71B29C8DAF400EC932D /* mail-line.png */; };
 		8440D71E29C8DC3700EC932D /* logo_preto.png in Resources */ = {isa = PBXBuildFile; fileRef = 8440D71D29C8DC3700EC932D /* logo_preto.png */; };
 		8440D72029C8DD3400EC932D /* user-line (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 8440D71F29C8DD3400EC932D /* user-line (2).png */; };
-		8440D72229C8E35B00EC932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440D72129C8E35B00EC932D /* Main.storyboard */; };
 		84A0585A29C64E010035D74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0585929C64E010035D74D /* AppDelegate.swift */; };
 		84A0585C29C64E010035D74D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0585B29C64E010035D74D /* SceneDelegate.swift */; };
 		84A0585E29C64E010035D74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0585D29C64E010035D74D /* ViewController.swift */; };
 		84A0586129C64E010035D74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0585F29C64E010035D74D /* Main.storyboard */; };
 		84A0586329C64E030035D74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A0586229C64E030035D74D /* Assets.xcassets */; };
-		84A0586629C64E030035D74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0586429C64E030035D74D /* LaunchScreen.storyboard */; };
-		84A0587129C64E030035D74D /* financeapp_treinandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0587029C64E030035D74D /* financeapp_treinandoTests.swift */; };
-		84A0587B29C64E030035D74D /* financeapp_treinandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0587A29C64E030035D74D /* financeapp_treinandoUITests.swift */; };
-		84A0587D29C64E030035D74D /* financeapp_treinandoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0587C29C64E030035D74D /* financeapp_treinandoUITestsLaunchTests.swift */; };
 		84A0588A29C653920035D74D /* Splash_Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0588929C653920035D74D /* Splash_Screen.png */; };
 		84A0588C29C6572A0035D74D /* logo-finances.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A0588B29C6572A0035D74D /* logo-finances.png */; };
 		84A0588E29C74DDB0035D74D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0588D29C74DDB0035D74D /* GradientView.swift */; };
+		84F31CE229E5980000DFADE7 /* telaDeCadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31CE129E5980000DFADE7 /* telaDeCadastroViewController.swift */; };
+		84F31CE429E5981400DFADE7 /* TelaDeCadastroViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F31CE329E5981400DFADE7 /* TelaDeCadastroViewController.storyboard */; };
+		84F31CE729E5991800DFADE7 /* telaDeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31CE629E5991800DFADE7 /* telaDeLoginViewController.swift */; };
+		84F31CEB29E5993600DFADE7 /* telaDeLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F31CEA29E5993600DFADE7 /* telaDeLoginViewController.storyboard */; };
+		84F31CEE29E5999F00DFADE7 /* telaDeErroViewController in Sources */ = {isa = PBXBuildFile; fileRef = 84F31CED29E5999F00DFADE7 /* telaDeErroViewController */; };
+		84F31CF029E599AC00DFADE7 /* telaDeErroViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F31CEF29E599AC00DFADE7 /* telaDeErroViewController.storyboard */; };
+		84F31CF329E5CB4700DFADE7 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F31CF229E5CB4700DFADE7 /* homeScreenViewController.swift */; };
+		84F31CF529E5CB6500DFADE7 /* homeScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F31CF429E5CB6500DFADE7 /* homeScreenViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8431B55829C7630E008D4616 /* AlgoErrado.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlgoErrado.storyboard; sourceTree = "<group>"; };
 		8431B55A29C763E6008D4616 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		8431B55E29C766B7008D4616 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		8440D70F29C8CFF500EC932D /* google-icon 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon 1.png"; sourceTree = "<group>"; };
@@ -60,23 +61,26 @@
 		8440D71B29C8DAF400EC932D /* mail-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-line.png"; sourceTree = "<group>"; };
 		8440D71D29C8DC3700EC932D /* logo_preto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_preto.png; sourceTree = "<group>"; };
 		8440D71F29C8DD3400EC932D /* user-line (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-line (2).png"; sourceTree = "<group>"; };
-		8440D72129C8E35B00EC932D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../projetoFinan-as/Main.storyboard"; sourceTree = "<group>"; };
 		84A0585629C64E010035D74D /* financeapp-treinando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "financeapp-treinando.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A0585929C64E010035D74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A0585B29C64E010035D74D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84A0585D29C64E010035D74D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A0586029C64E010035D74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A0586229C64E030035D74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84A0586529C64E030035D74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A0586729C64E030035D74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A0586C29C64E030035D74D /* financeapp-treinandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financeapp-treinandoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A0587029C64E030035D74D /* financeapp_treinandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeapp_treinandoTests.swift; sourceTree = "<group>"; };
 		84A0587629C64E030035D74D /* financeapp-treinandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financeapp-treinandoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A0587A29C64E030035D74D /* financeapp_treinandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeapp_treinandoUITests.swift; sourceTree = "<group>"; };
-		84A0587C29C64E030035D74D /* financeapp_treinandoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeapp_treinandoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84A0588929C653920035D74D /* Splash_Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Screen.png; sourceTree = "<group>"; };
 		84A0588B29C6572A0035D74D /* logo-finances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-finances.png"; sourceTree = "<group>"; };
 		84A0588D29C74DDB0035D74D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		84F31CE129E5980000DFADE7 /* telaDeCadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaDeCadastroViewController.swift; sourceTree = "<group>"; };
+		84F31CE329E5981400DFADE7 /* TelaDeCadastroViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TelaDeCadastroViewController.storyboard; sourceTree = "<group>"; };
+		84F31CE629E5991800DFADE7 /* telaDeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaDeLoginViewController.swift; sourceTree = "<group>"; };
+		84F31CEA29E5993600DFADE7 /* telaDeLoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = telaDeLoginViewController.storyboard; sourceTree = "<group>"; };
+		84F31CED29E5999F00DFADE7 /* telaDeErroViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = telaDeErroViewController; sourceTree = "<group>"; };
+		84F31CEF29E599AC00DFADE7 /* telaDeErroViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = telaDeErroViewController.storyboard; sourceTree = "<group>"; };
+		84F31CF229E5CB4700DFADE7 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		84F31CF429E5CB6500DFADE7 /* homeScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = homeScreenViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +108,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8487C20429E4B544004B4E52 /* tela de cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				84F31CE129E5980000DFADE7 /* telaDeCadastroViewController.swift */,
+				84F31CE329E5981400DFADE7 /* TelaDeCadastroViewController.storyboard */,
+			);
+			path = "tela de cadastro";
+			sourceTree = "<group>";
+		};
 		84A0584D29C64E010035D74D = {
 			isa = PBXGroup;
 			children = (
-				8440D72129C8E35B00EC932D /* Main.storyboard */,
 				84A0585829C64E010035D74D /* financeapp-treinando */,
-				84A0586F29C64E030035D74D /* financeapp-treinandoTests */,
-				84A0587929C64E030035D74D /* financeapp-treinandoUITests */,
 				84A0585729C64E010035D74D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,12 +138,15 @@
 		84A0585829C64E010035D74D /* financeapp-treinando */ = {
 			isa = PBXGroup;
 			children = (
+				84F31CF129E5CACD00DFADE7 /* stela homescreen */,
+				84F31CEC29E5998200DFADE7 /* tela de erro */,
+				84F31CE529E598F800DFADE7 /* tela de Login */,
+				8487C20429E4B544004B4E52 /* tela de cadastro */,
 				84A0588D29C74DDB0035D74D /* GradientView.swift */,
 				84A0585929C64E010035D74D /* AppDelegate.swift */,
 				84A0585B29C64E010035D74D /* SceneDelegate.swift */,
 				84A0585D29C64E010035D74D /* ViewController.swift */,
 				84A0585F29C64E010035D74D /* Main.storyboard */,
-				8431B55829C7630E008D4616 /* AlgoErrado.storyboard */,
 				84A0588B29C6572A0035D74D /* logo-finances.png */,
 				84A0586229C64E030035D74D /* Assets.xcassets */,
 				8440D71929C8DAE700EC932D /* Confused Man 1.png */,
@@ -146,27 +159,36 @@
 				8440D70F29C8CFF500EC932D /* google-icon 1.png */,
 				8431B55A29C763E6008D4616 /* logo.png */,
 				84A0588929C653920035D74D /* Splash_Screen.png */,
-				84A0586429C64E030035D74D /* LaunchScreen.storyboard */,
 				84A0586729C64E030035D74D /* Info.plist */,
 			);
 			path = "financeapp-treinando";
 			sourceTree = "<group>";
 		};
-		84A0586F29C64E030035D74D /* financeapp-treinandoTests */ = {
+		84F31CE529E598F800DFADE7 /* tela de Login */ = {
 			isa = PBXGroup;
 			children = (
-				84A0587029C64E030035D74D /* financeapp_treinandoTests.swift */,
+				84F31CE629E5991800DFADE7 /* telaDeLoginViewController.swift */,
+				84F31CEA29E5993600DFADE7 /* telaDeLoginViewController.storyboard */,
 			);
-			path = "financeapp-treinandoTests";
+			path = "tela de Login";
 			sourceTree = "<group>";
 		};
-		84A0587929C64E030035D74D /* financeapp-treinandoUITests */ = {
+		84F31CEC29E5998200DFADE7 /* tela de erro */ = {
 			isa = PBXGroup;
 			children = (
-				84A0587A29C64E030035D74D /* financeapp_treinandoUITests.swift */,
-				84A0587C29C64E030035D74D /* financeapp_treinandoUITestsLaunchTests.swift */,
+				84F31CED29E5999F00DFADE7 /* telaDeErroViewController */,
+				84F31CEF29E599AC00DFADE7 /* telaDeErroViewController.storyboard */,
 			);
-			path = "financeapp-treinandoUITests";
+			path = "tela de erro";
+			sourceTree = "<group>";
+		};
+		84F31CF129E5CACD00DFADE7 /* stela homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				84F31CF229E5CB4700DFADE7 /* homeScreenViewController.swift */,
+				84F31CF429E5CB6500DFADE7 /* homeScreenViewController.storyboard */,
+			);
+			path = "stela homescreen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,20 +297,21 @@
 			files = (
 				8440D71829C8DAD300EC932D /* cadeado.png in Resources */,
 				8440D71A29C8DAE700EC932D /* Confused Man 1.png in Resources */,
-				8431B55929C7630E008D4616 /* AlgoErrado.storyboard in Resources */,
-				84A0586629C64E030035D74D /* LaunchScreen.storyboard in Resources */,
+				84F31CF529E5CB6500DFADE7 /* homeScreenViewController.storyboard in Resources */,
+				84F31CEB29E5993600DFADE7 /* telaDeLoginViewController.storyboard in Resources */,
 				8431B55F29C766B7008D4616 /* bg.png in Resources */,
 				84A0588C29C6572A0035D74D /* logo-finances.png in Resources */,
 				84A0586329C64E030035D74D /* Assets.xcassets in Resources */,
+				84F31CF029E599AC00DFADE7 /* telaDeErroViewController.storyboard in Resources */,
 				8431B55B29C763E6008D4616 /* logo.png in Resources */,
 				84A0588A29C653920035D74D /* Splash_Screen.png in Resources */,
 				8440D72029C8DD3400EC932D /* user-line (2).png in Resources */,
 				84A0586129C64E010035D74D /* Main.storyboard in Resources */,
-				8440D72229C8E35B00EC932D /* Main.storyboard in Resources */,
 				8440D71C29C8DAF400EC932D /* mail-line.png in Resources */,
 				8440D71629C8DAC400EC932D /* apple-imagem.png in Resources */,
 				8440D71029C8CFF500EC932D /* google-icon 1.png in Resources */,
 				8440D71E29C8DC3700EC932D /* logo_preto.png in Resources */,
+				84F31CE429E5981400DFADE7 /* TelaDeCadastroViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +337,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A0585E29C64E010035D74D /* ViewController.swift in Sources */,
+				84F31CF329E5CB4700DFADE7 /* homeScreenViewController.swift in Sources */,
 				84A0585A29C64E010035D74D /* AppDelegate.swift in Sources */,
+				84F31CE229E5980000DFADE7 /* telaDeCadastroViewController.swift in Sources */,
+				84F31CEE29E5999F00DFADE7 /* telaDeErroViewController in Sources */,
 				84A0588E29C74DDB0035D74D /* GradientView.swift in Sources */,
 				84A0585C29C64E010035D74D /* SceneDelegate.swift in Sources */,
+				84F31CE729E5991800DFADE7 /* telaDeLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A0587129C64E030035D74D /* financeapp_treinandoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A0587D29C64E030035D74D /* financeapp_treinandoUITestsLaunchTests.swift in Sources */,
-				84A0587B29C64E030035D74D /* financeapp_treinandoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,14 +385,6 @@
 			name = Main.storyboard;
 			path = "/Users/usuario/turmabackfront350BF-vanessacristian/financeapp-treinando/financeapp-treinando";
 			sourceTree = "<absolute>";
-		};
-		84A0586429C64E030035D74D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A0586529C64E030035D74D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 

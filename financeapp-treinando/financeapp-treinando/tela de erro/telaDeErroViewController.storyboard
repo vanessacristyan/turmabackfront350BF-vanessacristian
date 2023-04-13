@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela De Erro View Controller-->
+        <scene sceneID="wsC-G3-ke3">
+            <objects>
+                <viewController storyboardIdentifier="telaDeErroViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bJA-Lo-qPm" customClass="telaDeErroViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4DM-PL-9Ea">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-k8-yJj">
+                                <rect key="frame" x="-17" y="0.0" width="427" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCf-6n-v11">
+                                <rect key="frame" x="0.0" y="131" width="393" height="721"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Confused Man 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZzP-zk-mYh">
+                                        <rect key="frame" x="77" y="94" width="279" height="233"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desculpa, algo deu errado." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqp-9O-mEz">
+                                        <rect key="frame" x="77" y="29" width="273" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" red="0.1843137255" green="0.27058823529999998" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eF-ab-iUi">
+                                        <rect key="frame" x="56" y="532" width="320" height="34.333333333333371"/>
+                                        <color key="backgroundColor" red="0.069984778760000005" green="0.19875901939999999" blue="0.3981696367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Tentar outra vez"/>
+                                        <connections>
+                                            <action selector="tappedNovamenteButton:" destination="bJA-Lo-qPm" eventType="touchUpInside" id="UbY-dH-WYj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Tqp-9O-mEz" firstAttribute="top" secondItem="DCf-6n-v11" secondAttribute="top" constant="29" id="0Nr-v1-LvF"/>
+                                    <constraint firstItem="Tqp-9O-mEz" firstAttribute="leading" secondItem="DCf-6n-v11" secondAttribute="leading" constant="77" id="5M8-Mf-mRI"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZzP-zk-mYh" secondAttribute="trailing" constant="37" id="IY0-x7-OPs"/>
+                                    <constraint firstItem="0eF-ab-iUi" firstAttribute="leading" secondItem="DCf-6n-v11" secondAttribute="leading" constant="56" id="M4w-2H-Juf"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tqp-9O-mEz" secondAttribute="trailing" constant="43" id="US6-O1-w8l"/>
+                                    <constraint firstItem="0eF-ab-iUi" firstAttribute="top" secondItem="ZzP-zk-mYh" secondAttribute="bottom" constant="205" id="XQf-Jv-uW5"/>
+                                    <constraint firstAttribute="trailing" secondItem="0eF-ab-iUi" secondAttribute="trailing" constant="17" id="ewa-wP-Q0h"/>
+                                    <constraint firstItem="ZzP-zk-mYh" firstAttribute="leading" secondItem="DCf-6n-v11" secondAttribute="leading" constant="77" id="hKa-di-TZI"/>
+                                    <constraint firstItem="ZzP-zk-mYh" firstAttribute="top" secondItem="Tqp-9O-mEz" secondAttribute="bottom" constant="36" id="wdK-jy-FkD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ERRO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOH-GZ-O1g">
+                                <rect key="frame" x="161" y="94" width="61" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.99999994039999995" green="0.99999994039999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="c3g-n5-NrG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DCf-6n-v11" secondAttribute="bottom" id="0lY-lJ-ZJK"/>
+                            <constraint firstItem="c3g-n5-NrG" firstAttribute="trailing" secondItem="VOH-GZ-O1g" secondAttribute="trailing" constant="171" id="3aL-jS-kvG"/>
+                            <constraint firstItem="DCf-6n-v11" firstAttribute="leading" secondItem="c3g-n5-NrG" secondAttribute="leading" id="FrU-lk-lEy"/>
+                            <constraint firstItem="DCf-6n-v11" firstAttribute="trailing" secondItem="c3g-n5-NrG" secondAttribute="trailing" id="e3C-IY-axV"/>
+                            <constraint firstItem="DCf-6n-v11" firstAttribute="top" secondItem="VOH-GZ-O1g" secondAttribute="bottom" constant="8" id="h0N-Tg-JXc"/>
+                            <constraint firstItem="VOH-GZ-O1g" firstAttribute="top" secondItem="c3g-n5-NrG" secondAttribute="top" constant="35" id="iNm-Bh-xsV"/>
+                            <constraint firstItem="VOH-GZ-O1g" firstAttribute="leading" secondItem="c3g-n5-NrG" secondAttribute="leading" constant="161" id="kfU-KW-Yrb"/>
+                            <constraint firstItem="DCf-6n-v11" firstAttribute="centerX" secondItem="4DM-PL-9Ea" secondAttribute="centerX" id="rdx-np-Fxm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="novamenteButton" destination="0eF-ab-iUi" id="gjI-jC-J8c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cB-GE-sxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Confused Man 1.png" width="200" height="233"/>
+        <image name="bg.png" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

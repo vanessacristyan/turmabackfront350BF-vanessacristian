@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qzy-Cl-InF">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Screen View Controller-->
+        <scene sceneID="L6F-eq-hzM">
+            <objects>
+                <viewController storyboardIdentifier="homeScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qzy-Cl-InF" customClass="homeScreenViewController" customModule="financeapp_treinando" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RdW-OU-jKK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="DTn-yk-JeN">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-finances.png" translatesAutoresizingMaskIntoConstraints="NO" id="ba5-hB-1mo">
+                                <rect key="frame" x="48" y="95" width="310" height="318"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ5-O8-6uD">
+                                <rect key="frame" x="36" y="455" width="320" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cadastrar"/>
+                                <connections>
+                                    <action selector="tappedCadastrarBUtton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="g1D-b3-VEL"/>
+                                    <action selector="tappedCadastrarButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="JAW-qa-RN9"/>
+                                    <action selector="tappedTelaCadastrarButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="9Hc-Qc-5Ni"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZb-jX-xgh">
+                                <rect key="frame" x="36" y="381" width="320" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                <connections>
+                                    <action selector="fsejg:" destination="qzy-Cl-InF" eventType="touchUpInside" id="Z52-SU-llF"/>
+                                    <action selector="tappedLoginButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="iic-k4-WV6"/>
+                                    <action selector="tappedLoginButtton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="r6f-80-ni3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvB-f3-Ll2">
+                                <rect key="frame" x="36" y="601" width="320" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Entrar com Apple"/>
+                                <connections>
+                                    <action selector="tappedAppleButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="5wo-3c-Cmg"/>
+                                    <action selector="tappedFareBaseAppleButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="LzX-oD-hvW"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_preto.png" translatesAutoresizingMaskIntoConstraints="NO" id="BIB-8Z-qMv">
+                                <rect key="frame" x="52" y="443" width="37" height="58"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-line (2).png" translatesAutoresizingMaskIntoConstraints="NO" id="14u-qx-dsE">
+                                <rect key="frame" x="58" y="389" width="31" height="16"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple-imagem.png" translatesAutoresizingMaskIntoConstraints="NO" id="pHn-xi-eis">
+                                <rect key="frame" x="63" y="605" width="29" height="24"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQA-sF-fwv">
+                                <rect key="frame" x="36" y="534" width="320" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Entrar com Gmail"/>
+                                <connections>
+                                    <action selector="p:" destination="qzy-Cl-InF" eventType="touchUpInside" id="hjy-0x-M7p"/>
+                                    <action selector="tappedFariBaseGmailButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="Kvf-dz-0qt"/>
+                                    <action selector="tappedGmailButton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="2TN-76-cZh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google-icon 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fe1-LA-pdo">
+                                <rect key="frame" x="58" y="539" width="24" height="25"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7a-k2-Fcd">
+                                <rect key="frame" x="166" y="689" width="75" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="tappedbutton:" destination="qzy-Cl-InF" eventType="touchUpInside" id="5B9-8F-ofb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mWs-XR-LkX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DTn-yk-JeN" firstAttribute="leading" secondItem="LQA-sF-fwv" secondAttribute="trailing" constant="-356" id="0RR-r2-Yox"/>
+                            <constraint firstItem="DTn-yk-JeN" firstAttribute="top" secondItem="RdW-OU-jKK" secondAttribute="top" id="3u1-Nw-ydQ"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="pHn-xi-eis" secondAttribute="trailing" constant="301" id="8Od-Tq-ydg"/>
+                            <constraint firstItem="14u-qx-dsE" firstAttribute="top" secondItem="mWs-XR-LkX" secondAttribute="top" constant="330" id="8qm-Aj-GDD"/>
+                            <constraint firstItem="ba5-hB-1mo" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="48" id="DZJ-6P-EIY"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="WvB-f3-Ll2" secondAttribute="trailing" constant="37" id="FQj-SY-gFE"/>
+                            <constraint firstItem="14u-qx-dsE" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="58" id="H1W-q8-Uet"/>
+                            <constraint firstItem="YQ5-O8-6uD" firstAttribute="top" secondItem="PZb-jX-xgh" secondAttribute="bottom" constant="39" id="IZ6-DF-SVj"/>
+                            <constraint firstItem="LQA-sF-fwv" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="36" id="JCV-8Q-dZC"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="ba5-hB-1mo" secondAttribute="trailing" constant="35" id="KWH-62-xQP"/>
+                            <constraint firstItem="Fe1-LA-pdo" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="58" id="LQx-8x-GRe"/>
+                            <constraint firstItem="PZb-jX-xgh" firstAttribute="top" secondItem="RdW-OU-jKK" secondAttribute="topMargin" constant="322" id="OaO-oC-qWM"/>
+                            <constraint firstItem="PZb-jX-xgh" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="36" id="P1g-JD-5NY"/>
+                            <constraint firstItem="pHn-xi-eis" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="63" id="QGT-wn-Pxi"/>
+                            <constraint firstItem="DTn-yk-JeN" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" id="Qdw-vG-hne"/>
+                            <constraint firstAttribute="bottom" secondItem="DTn-yk-JeN" secondAttribute="bottom" id="SXt-VB-VCd"/>
+                            <constraint firstItem="Fe1-LA-pdo" firstAttribute="top" secondItem="BIB-8Z-qMv" secondAttribute="bottom" constant="38" id="V9u-KB-lOG"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="YQ5-O8-6uD" secondAttribute="trailing" constant="37" id="VLg-gh-Pib"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="Fe1-LA-pdo" secondAttribute="trailing" constant="311" id="Vct-Hr-oN4"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="f7a-k2-Fcd" secondAttribute="trailing" constant="152" id="Vs0-B3-O7t"/>
+                            <constraint firstItem="f7a-k2-Fcd" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="166" id="XRX-dI-YAb"/>
+                            <constraint firstItem="ba5-hB-1mo" firstAttribute="top" secondItem="mWs-XR-LkX" secondAttribute="top" constant="36" id="Xod-eN-lbI"/>
+                            <constraint firstItem="BIB-8Z-qMv" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="52" id="YHq-XL-ETX"/>
+                            <constraint firstItem="DTn-yk-JeN" firstAttribute="centerX" secondItem="RdW-OU-jKK" secondAttribute="centerX" id="Zlc-aG-hUY"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="BIB-8Z-qMv" secondAttribute="trailing" constant="304" id="dly-5J-nJq"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="LQA-sF-fwv" secondAttribute="trailing" constant="37" id="hiV-Jl-23a"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="PZb-jX-xgh" secondAttribute="trailing" constant="37" id="i0J-6N-d5i"/>
+                            <constraint firstItem="mWs-XR-LkX" firstAttribute="trailing" secondItem="14u-qx-dsE" secondAttribute="trailing" constant="304" id="i0U-VF-wT2"/>
+                            <constraint firstItem="BIB-8Z-qMv" firstAttribute="top" secondItem="PZb-jX-xgh" secondAttribute="bottom" constant="27" id="jGs-Bv-E4U"/>
+                            <constraint firstItem="WvB-f3-Ll2" firstAttribute="top" secondItem="LQA-sF-fwv" secondAttribute="bottom" constant="32" id="ofL-xr-vaq"/>
+                            <constraint firstItem="LQA-sF-fwv" firstAttribute="top" secondItem="YQ5-O8-6uD" secondAttribute="bottom" constant="44" id="oyT-sh-eQX"/>
+                            <constraint firstItem="pHn-xi-eis" firstAttribute="top" secondItem="LQA-sF-fwv" secondAttribute="bottom" constant="36" id="qDO-RX-5ji"/>
+                            <constraint firstItem="WvB-f3-Ll2" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="36" id="ryk-Wu-B2s"/>
+                            <constraint firstItem="YQ5-O8-6uD" firstAttribute="leading" secondItem="mWs-XR-LkX" secondAttribute="leading" constant="36" id="s15-h0-RCV"/>
+                            <constraint firstItem="DTn-yk-JeN" firstAttribute="trailing" secondItem="mWs-XR-LkX" secondAttribute="trailing" id="trD-LW-5Ix"/>
+                            <constraint firstItem="f7a-k2-Fcd" firstAttribute="top" secondItem="WvB-f3-Ll2" secondAttribute="bottom" constant="53" id="zZv-qo-UkM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kOD-xj-dAa"/>
+                    <connections>
+                        <outlet property="AppleButton" destination="WvB-f3-Ll2" id="YvL-Mr-amQ"/>
+                        <outlet property="cadastrarButton" destination="YQ5-O8-6uD" id="jF0-so-84z"/>
+                        <outlet property="emailButton" destination="PZb-jX-xgh" id="TBq-Xm-6mW"/>
+                        <outlet property="googleButton" destination="LQA-sF-fwv" id="EdP-aC-wr8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ivn-IU-fUc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple-imagem.png" width="24" height="24"/>
+        <image name="bg.png" width="375" height="812"/>
+        <image name="google-icon 1.png" width="24" height="25"/>
+        <image name="logo-finances.png" width="288" height="318"/>
+        <image name="logo_preto.png" width="47" height="58"/>
+        <image name="user-line (2).png" width="16" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

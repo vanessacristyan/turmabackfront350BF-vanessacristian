@@ -8,13 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var homeScreenViewController: UIImageView!
+    
+    
+    @IBOutlet weak var iniciarButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
       
     }
    
+ 
+    @IBAction func tappedHomeScreenButton(_ sender: UIButton) {
+            let vc:homeScreenViewController? = UIStoryboard(name: "homeScreenViewController", bundle: nil).instantiateViewController(withIdentifier: "homeScreenViewController") as? homeScreenViewController
+            navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+            
+    }
+    
+    
 }
 
