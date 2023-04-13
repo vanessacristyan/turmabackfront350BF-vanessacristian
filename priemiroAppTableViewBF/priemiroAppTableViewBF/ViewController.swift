@@ -33,11 +33,15 @@ extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
-    
+    // responsavel por criar as celulas
+    //indexpath
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell ()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NameTableViewCell", for: <#T##IndexPath#>) as? NameTableViewCell
+        return cell ?? UITableViewCell ()
     }
-    
+    func tableView(_ tableView: UITableView, heightForROwart  indexPath: IndexPath) -> CGFloat {
+        return 50
+    }
     
 }
 //DELEGATE -> RESPONSAVEL PELA INTERACAO DO USUARIOO
