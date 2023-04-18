@@ -11,7 +11,7 @@
         <!--Tela De Cadastro View Controller-->
         <scene sceneID="GsF-Hc-Lnv">
             <objects>
-                <viewController storyboardIdentifier="telaDeCadastroViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pVl-fb-WIL" customClass="telaDeCadastroViewController" customModule="financeapp_treinando" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="telaDeCadastroViewController" id="pVl-fb-WIL" customClass="telaDeCadastroViewController" customModule="financeapp_treinando" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cva-Od-IDu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

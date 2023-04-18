@@ -17,7 +17,11 @@ class telaDeLoginViewController: UIViewController {
     
     @IBOutlet weak var entrarButton: UIButton!
     
-    
+       
+
+    var email: String?
+    var senha: String?
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +33,8 @@ class telaDeLoginViewController: UIViewController {
         
         emailTexField.delegate = self
         passwordTextfield.delegate = self
-        
+    
+
         entrarButton.isEnabled = false
         entrarButton.setTitleColor(.white.withAlphaComponent(0.4), for: .disabled)
         entrarButton.setTitleColor(.white, for: .normal)
@@ -37,7 +42,41 @@ class telaDeLoginViewController: UIViewController {
     }
     
     @IBAction func tappedEntrarButton(_ sender: UIButton) {
+        
+                guard let email = email, let senha = senha else {
+                    return
+                }
+
+                // Salva o email e senha do usuário nas UserDefaults
+                UserDefaults.standard.set(email, forKey: "email")
+                UserDefaults.standard.set(senha, forKey: "senha")
+
+                // Exibe a tela de login
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let loginViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+                navigationController?.pushViewController(loginViewController, animated: true)
+            }
+
+        
+
     }
+    @IBAction func emailChanged(_ sender: UITextField) {
+          email = sender.text
+        entrarButton.isEnabled = validarCampos()
+      }
+      
+      @IBAction func senhaChanged(_ sender: UITextField) {
+          senha = sender.text
+          entrarButton.isEnabled = validarCampos()
+      }
+
+    
+}
+    
+    
+    
+    
+    
     
     @IBAction func tappedErroSenha(_ sender: UIButton) {
     }
@@ -55,6 +94,19 @@ class telaDeLoginViewController: UIViewController {
         }
         
     }
+    private func validarCampos() -> Bool {
+            guard let email = email, let senha = senha else {
+                return false
+            }
+            
+            if email.isEmpty || senha.isEmpty {
+                return false
+            }
+            
+            return true
+        }
+        
+
 }
 
 
@@ -66,6 +118,16 @@ extension telaDeLoginViewController : UITextFieldDelegate {
         textField.layer.borderColor = UIColor.blue.cgColor
         textField.layer.borderWidth = 1
         }
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        if textField.text?.isEmpty ?? true {
+            textField.layer.borderWidth = 1
+            textField.layer.borderColor = UIColor.red.cgColor
+        } else {
+            textField.layer.borderWidth = 0
+        }
+    }
+
     func textFieldDidEndEditing(_ textField: UITextField) {
         print(#function)
         textField.layer.borderWidth = 0
@@ -76,7 +138,10 @@ extension telaDeLoginViewController : UITextFieldDelegate {
               textField.resignFirstResponder()
         return true
     }
-    
+  
+       
     }
+
+  
     
 
